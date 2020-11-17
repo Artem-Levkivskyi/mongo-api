@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MongoDB REST API client</title>
+    <link rel="stylesheet" href="{{ static('css/taskbar/bootstrap_magic_1.css') }}">
+    <link rel="stylesheet" href="{{ static('css/taskbar/bootstrap_magic_2.css') }}">
+    <link rel="stylesheet" href="{{ static('css/taskbar/styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <header class="header clearfix">
+        <h3 align=center class="text-muted">MongoDB REST API via aiohttp</h3>
+    </header>
+
+    <main role="main">
+
+        <div class="jumbotron">
+            <p class="lead">Your result will be displayed here</p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-sm">
+                <form class="form-signin" action="querry`s url..." method="post">
+                    <h2 align=center class="form-signin-heading">POST</h2>
+
+                    <label for="inputManufacturer" class="sr-only">manufacturer</label>
+                    <input type="manufacturer" id="inputManufacturer" class="form-control" placeholder="Manufacturer">
+
+                    <label for="inputModel" class="sr-only">model</label>
+                    <input type="model" id="inputModel" class="form-control" placeholder="Model">
+
+                    <label for="inputYear" class="sr-only">year</label>
+                    <input type="year" id="inputYear" class="form-control" placeholder="Year">
+
+                    <label for="inputColour" class="sr-only">colour</label>
+                    <input type="colour" id="inputColour" class="form-control" placeholder="Colour">
+
+                    <label for="inputVinCode" class="sr-only">vin-code</label>
+                    <input type="vincode" id="inputVinCode" class="form-control" placeholder="vin-code">
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="col-sm">
+                <form class="form-signin" action="querry`s url..." method="get">
+                    <h2 align=center class="form-signin-heading">GET</h2>
+
+                    <label for="inputManufacturer" class="sr-only">manufacturer</label>
+                    <input type="manufacturer" id="inputManufacturer" class="form-control" placeholder="Manufacturer">
+
+                    <label for="inputModel" class="sr-only">model</label>
+                    <input type="model" id="inputModel" class="form-control" placeholder="Model">
+
+                    <label for="inputYear" class="sr-only">year</label>
+                    <input type="year" id="inputYear" class="form-control" placeholder="Year">
+
+                    <label for="inputColour" class="sr-only">colour</label>
+                    <input type="colour" id="inputColour" class="form-control" placeholder="Colour">
+
+                    <label for="inputVinCode" class="sr-only">vin-code</label>
+                    <input type="vincode" id="inputVinCode" class="form-control" placeholder="vin-code">
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="col-sm">
+                <form class="form-signin" action="querry`s url..." method="put">
+                    <h2 align=center class="form-signin-heading">PUT</h2>
+
+                    <label for="inputManufacturer" class="sr-only">manufacturer</label>
+                    <input type="manufacturer" id="inputManufacturer" class="form-control" placeholder="Manufacturer">
+
+                    <label for="inputModel" class="sr-only">model</label>
+                    <input type="model" id="inputModel" class="form-control" placeholder="Model">
+
+                    <label for="inputYear" class="sr-only">year</label>
+                    <input type="year" id="inputYear" class="form-control" placeholder="Year">
+
+                    <label for="inputColour" class="sr-only">colour</label>
+                    <input type="colour" id="inputColour" class="form-control" placeholder="Colour">
+
+                    <label for="inputVinCode" class="sr-only">vin-code</label>
+                    <input type="vincode" id="inputVinCode" class="form-control" placeholder="vin-code">
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="col-sm">
+                <form class="form-signin" action="querry`s url..." method="delete">
+                    <h2 align=center class="form-signin-heading">DELETE</h2>
+
+                    <label for="inputManufacturer" class="sr-only">manufacturer</label>
+                    <input type="manufacturer" id="inputManufacturer" class="form-control" placeholder="Manufacturer">
+
+                    <label for="inputModel" class="sr-only">model</label>
+                    <input type="model" id="inputModel" class="form-control" placeholder="Model">
+
+                    <label for="inputYear" class="sr-only">year</label>
+                    <input type="year" id="inputYear" class="form-control" placeholder="Year">
+
+                    <label for="inputColour" class="sr-only">colour</label>
+                    <input type="colour" id="inputColour" class="form-control" placeholder="Colour">
+
+                    <label for="inputVinCode" class="sr-only">vin-code</label>
+                    <input type="vincode" id="inputVinCode" class="form-control" placeholder="vin-code">
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p align=center>&copy; Artem Levkivskyi 2020</p>
+    </footer>
+
+</div>
+</body>
+</html>

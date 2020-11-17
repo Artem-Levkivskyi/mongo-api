@@ -9,7 +9,7 @@ async def create(request):
     """ New record creating """
 
     try:
-        print(request)
+        print(request.query)
         response_obj = await Car.create(request.query)
 
     except KeyError as invalid_key:
