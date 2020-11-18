@@ -35,7 +35,6 @@ def init(loop):
     return server
 
 
-app = web.Application()
 loop = asyncio.get_event_loop()
 loop.run_until_complete(init(loop))
 try:
